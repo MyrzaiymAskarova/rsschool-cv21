@@ -6,12 +6,27 @@
     <title>Myrzaiym Askarova CV</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="page page-body">
+  <body >
+    <header class="page page-body">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#contact">Contact</a></li>
+        <li class="nav__item"><a href="#about-me">About me</a></li>
+        <li class="nav__item"><a href="#skills">Skills</a></li>
+        <li class="nav__item"><a href="#key-strengths">Key strengths</a></li>
+        <li class="nav__item"><a href="#code-example">Code Example</a></li>
+        <li class="nav__item"><a href="#education">Education</a></li>
+        <li class="nav__item"><a href="#Projects">Projects</a></li>
+        <li class="nav__item"><a href="#footer">Footer</a></li>
+      </ul>
+    </nav>
+      </header>
     <main class="container">
       <div class="left-side">
         <img class="img" src="assets/img/myphoto.jpg" width="300" height="340" alt="Photo of Myrzaiym Askarova"
         />
-        <section class="contact">
+        
+        <section id="contact" class="contact">
           <h2 class="section-title">Contact</h2>
           <ul class="contact__list">
             <li class="contact__item">
@@ -27,7 +42,7 @@
             </li>
           </ul>
         </section>
-        <section class="education">
+        <section id="education" class="education">
           <h2 class="section-title">Education</h2>
           <ul class="education__list">
             <li class="education__item">
@@ -43,13 +58,26 @@
             </li>
           </ul>
         </section>
+         <section class="sections" id="Projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        Сryptofund and indexes <a target="_blank" href="https://myrzaiymaskarova.github.io/rsschool-cv/">github</a> 
+                    </li>
+                    
+
+                </ul>
+
+    
+            </section>
       </div>
+      
       <div class="right-side">
         <section class="page-title">
           <h1 class="main-title">Bishkek <br />Kyrgyzstan</h1>
           <p>Front-End developer</p>
         </section>
-        <section class="about-me">
+        <section id="about-me" class="about-me">
           <h2 class="section-title">About me</h2>
           <p>
             I have good interpersonal skills, I work great in a team and really want to learn and develop new skills. 
@@ -58,7 +86,7 @@
             This is why I am here. My goal is to gain knowledge in the field of front-end development.
           </p>
         </section>
-        <section class="skills">
+        <section id="skills" class="skills">
           <h2 class="section-title">Skills</h2>
           <ul class="skills__list">
             <li>HTML5, CSS3</li>
@@ -68,7 +96,7 @@
             <li>Adobe Photoshop, Figma</li>
           </ul>
         </section>
-        <section class="key-strengths">
+        <section id="key-strengths" class="key-strengths">
           <h2 class="section-title">Key strengths</h2>
           <ul class="key-strengths__list">
             <li>Hardworking girl</li>
@@ -78,8 +106,12 @@
             <li>Goal-oriented</li>
             <li>Conscientious</li>
           </ul>
+          <h2>Languages:</h2>
+        <ul>
+          <li>English (A2.I try to learn English in every possible way. I use application in smartphone: Duolingo and I use google translate a lot.)</li>
+        </ul>
         </section>
-        <section class="code-example">
+        <section id="code-example" class="code-example">
           <h2 class="section-title">Code example</h2>
           <pre>
             // const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
@@ -93,7 +125,7 @@
         </section> 
       </div>
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <a class="footer__github" href="https://github.com/MyrzaiymAskarova">
         My GitHub
       </a>
