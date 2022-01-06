@@ -35,6 +35,28 @@ body {
   .page-body a:active {
     text-decoration: underline;
   }
+
+  .nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .nav a {
+    padding: 14px 10px;
+    line-height: 50px;
+    color: black;
+  }
+  .nav a:hover {
+    background-color: #f2c100;
+  }
+  .nav a:active {
+    color: white;
+    text-decoration: none;
+  }
+  
   .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -165,6 +187,7 @@ body {
     padding: 0;
     padding-left: 20px;
   }
+
   
   /* Code example */
   .code-example {
